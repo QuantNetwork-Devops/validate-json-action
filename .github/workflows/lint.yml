@@ -5,6 +5,9 @@ on:
   push:
     paths:
       - '!.dist/**'
+  pull_request:
+    paths:
+      - '!.dist/**'
 
 jobs:
   lint:

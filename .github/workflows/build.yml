@@ -8,6 +8,12 @@ on:
       - 'action.yml'
       - 'package.json'
       - 'package-lock.json'
+  pull_request:
+    paths:
+      - 'src/action.js'
+      - 'action.yml'
+      - 'package.json'
+      - 'package-lock.json'
 
 jobs:
   build:
